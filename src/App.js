@@ -9,12 +9,16 @@ import {AccountSummary} from './components/AccountSummary'
 import { TransHistory } from './components/TransHistory';
 import {AddTransaction} from './components/AddTransaction'
 
+// import the Global Provider
+
+import {GlobalProvider} from './components/context/GlobalState'
+
 
 
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       
       <div className='container'>
@@ -24,7 +28,7 @@ function App() {
       <TransHistory />
       <AddTransaction />
 
-    </div>
+    </GlobalProvider>
   );
 }
 
