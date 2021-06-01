@@ -6,7 +6,8 @@ import React from 'react'
 import { Header } from './components/Header'
 import {Balance} from './components/Balance'
 import {AccountSummary} from './components/AccountSummary'
-
+import { TransHistory } from './components/TransHistory';
+import {AddTransaction} from './components/AddTransaction'
 
 
 
@@ -20,6 +21,8 @@ function App() {
       <Balance />
       </div>
       <AccountSummary />
+      <TransHistory />
+      <AddTransaction />
 
     </div>
   );
