@@ -17,14 +17,19 @@ const initialState = {
 
 //Create the Global Context
 
+
 export const GlobalContext = createContext(initialState);
+
 
 //Create a Provider for the GlobalContext
 
+
 export const GlobalProvider = ({children}) => {
+
 
 const [state]=useReducer(AppReducer, initialState)
   
+
 
      return (
 
@@ -32,7 +37,7 @@ const [state]=useReducer(AppReducer, initialState)
 
             {
 
-                transaction: state.transactions
+                transactions: state.transactions
             }
 
         } >
