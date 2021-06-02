@@ -23,7 +23,7 @@ export const GlobalContext = createContext(initalState);
 
 export const GlobalProvider = ({Children}) => {
 
-   const [state, dispatch]=useReducer(AppReducer, initialState)
+ //  const [state, dispatch]=useReducer(AppReducer, initialState)
   
 
      return (
