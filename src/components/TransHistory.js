@@ -25,7 +25,7 @@ export const TransHistory = () => {
 
          <Transactions key={transactions.id} transactions={transactions}/>
         )
-        )};
+        )}
         
         
         </ul>
