@@ -37,7 +37,7 @@ function deleteTransaction(id) {
 
     });
 }
-function addTransaction(transaction) {
+function addTransactions(transaction) {
 
     dispatch({
         
@@ -55,7 +55,7 @@ function addTransaction(transaction) {
 
                 transactions: state.transactions,
                 deleteTransaction,
-                addTransaction
+                addTransactions
             }
 
         } >
