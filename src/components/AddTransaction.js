@@ -44,6 +44,9 @@ export const AddTransaction = () => {
                 <div className='form-control' >
                     <label htmlFor='AmountofTransaction' >
                         Amount of Transaction
+                        <br/>
+                        <br/>
+                    (for negative - expanse) 
                     </label>
                     <input
                         type='number'

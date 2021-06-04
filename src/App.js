@@ -18,7 +18,9 @@ import {GlobalProvider} from './components/context/GlobalState'
 
 function App() {
   return (
+    
     <GlobalProvider>
+      <div className='edit' >
       <Header />
       
       <div className='container'>
@@ -27,8 +29,11 @@ function App() {
       <AccountSummary />
       <TransHistory />
       <AddTransaction />
+      </div>
 
     </GlobalProvider>
+    
+    
   );
 }
 
