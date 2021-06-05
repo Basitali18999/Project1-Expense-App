@@ -4,36 +4,37 @@ import React from 'react'
 // Components Import
 
 import { Header } from './components/Header'
-import {Balance} from './components/Balance'
-import {AccountSummary} from './components/AccountSummary'
+import { Balance } from './components/Balance'
+import { AccountSummary } from './components/AccountSummary'
 import { TransHistory } from './components/TransHistory';
-import {AddTransaction} from './components/AddTransaction'
+import { AddTransaction } from './components/AddTransaction'
 
 // import the Global Provider
 
-import {GlobalProvider} from './components/context/GlobalState'
+import { GlobalProvider } from './components/context/GlobalState'
 
 
 
 
 function App() {
   return (
-    
+
     <GlobalProvider>
       <div className='edit' >
-      <Header />
-      
-      <div className='container'>
-      <Balance />
-      </div>
-      <AccountSummary />
-      <TransHistory />
-      <AddTransaction />
+        <Header />
+
+
+        <div className='container'>
+          <Balance />
+        </div>
+        <AccountSummary />
+        <TransHistory />
+        <AddTransaction />
       </div>
 
     </GlobalProvider>
-    
-    
+
+
   );
 }
 

@@ -17,11 +17,11 @@ export const AddTransaction = () => {
             id: new Date().getTime(),
             description,
             transactionAmount: +transactionAmount,
-        
-            
+
+
         }
         addTransactions(newTransaction);
-    }   
+    }
 
 
 
@@ -44,9 +44,9 @@ export const AddTransaction = () => {
                 <div className='form-control' >
                     <label htmlFor='AmountofTransaction' >
                         Amount of Transaction
-                        <br/>
-                        <br/>
-                    (for negative - expanse) 
+                        <br />
+                        <br />
+                    (for negative - expanse)
                     </label>
                     <input
                         type='number'
