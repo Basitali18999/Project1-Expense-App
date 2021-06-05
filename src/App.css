@@ -15,9 +15,11 @@ body {
   flex-direction:column;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
-  margin: 0;
+  min-height: 100vh;
+  margin: 0 auto;
   font-family: 'Lato', sans-serif;
+  
+  
   
   
   
@@ -58,10 +60,11 @@ h4 {
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  padding: 20px;
+  padding: 10px;
   display:flex;
   justify-content: space-between;
   margin: 20px 0;
+  border-radius: 3px;
 }
 
 .inc-exp-container > div {
@@ -76,7 +79,7 @@ h4 {
 .money {
   font-size: 20px;
   letter-spacing: 1px;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .money.plus {
@@ -188,11 +191,12 @@ input[type='number'] {
 .edit {
   
   
-  border: 1px solid black;
+  border: none solid whitesmoke;
   padding: 30px;
   background-color: #fce181;
   box-shadow: 20px 20px 15px  gray;
-  margin: 20px;
-  border-radius: 100px;
+  border-radius: 20px;
+
+  
   
 }

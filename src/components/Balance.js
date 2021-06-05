@@ -13,6 +13,7 @@ export const Balance = () => {
         <div>
             <h4>Current Balance</h4>
             <h1>${total}</h1>
+
         </div>
     )
 }
